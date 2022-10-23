@@ -7,8 +7,7 @@ describe("Manager", () => {
 
   it("should create an object keys first name, last name, id, email, role", () => {
     const manager = new Manager(
-      "Nathan",
-      "Aramyan",
+      "Nathan Aramyan",
       5,
       "nathan.aramyan@gmail.com",
       "Manager"
@@ -16,17 +15,16 @@ describe("Manager", () => {
     manager.getRole();
 
     expect(manager).toEqual({
-      firstName: "Nathan",
-      lastName: "Aramyan",
+      Name: "Nathan Aramyan",
       id: 5,
       email: "nathan.aramyan@gmail.com",
       role: "Manager",
-      officenumber: 66,
+      teamNumber: 66,
     });
   });
 
   it("should create an object with fullName", () => {
-    const manager = new Manager("Nathan", "Aramyan");
+    const manager = new Manager("Nathan Aramyan");
     manager.getName();
 
     expect(manager.fullName).toEqual("Nathan Aramyan");

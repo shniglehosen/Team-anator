@@ -5,10 +5,9 @@ describe("Engineer", () => {
     expect(new Engineer()).toBeInstanceOf(Engineer);
   });
 
-  it("should create an object keys first name, last name, full name, id, email role", () => {
+  it("should create an object keys first name, last name, full name, id, email, role", () => {
     const engineer = new Engineer(
-      "Nathan",
-      "Aramyan",
+      "Nathan Aramyan",
       5,
       "nathan.aramyan@gmail.com",
       "NathanAramyan"
@@ -16,8 +15,8 @@ describe("Engineer", () => {
     engineer.getRole();
 
     expect(engineer).toEqual({
-      firstName: "Nathan",
-      lastName: "Aramyan",
+      Name: "Nathan Aramyan",
+      // lastName: "Aramyan",
       id: 5,
       email: "Nathan.Aramyan@gmail.com",
       role: "Engineer",
@@ -26,7 +25,7 @@ describe("Engineer", () => {
   });
 
   it("should create an object with fullName", () => {
-    const engineer = new Engineer("Nathan", "Aramyan");
+    const engineer = new Engineer("Nathan Aramyan");
     engineer.getName();
 
     expect(engineer.fullName).toEqual("Nathan Aramyan");

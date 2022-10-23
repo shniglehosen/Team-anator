@@ -18,9 +18,8 @@
      [Usage](#table-of-contents)
      refer to above notes
 
-     ## [License](#table-of-contents) 
-    This project is under the following license: 
-    
+     Video Link:
+     https://drive.google.com/file/d/1vxWmre6Op383RRVaNQMZBGlYbW2RJH-f/view
      
      ## [Contributer](#table-of-contents)
      Created
@@ -33,4 +32,5 @@
      Github: [Github Link](https://github.com/shniglehosen/Team-anator)
      To contact me directly please reach out to the following email:
      Email: [nathan.aramyan@gmail.com](mailto:nathan.aramyan@gmail.com)
+
     

@@ -57,7 +57,7 @@ describe("Employee", () => {
   // email should be an email address? Or string?
   it("Should throw and error if 'email' is not in correct format", () => {
     const testValue = "Employee";
-    const cb = () => new Employee("Nathan", 3, "nathan.aramyan@gmail");
+    const cb = () => new Employee("Nathan", 3, "nathan.aramyan@gmail.com");
 // this is get role method test 
     expect(cb).toThrow(err);
   })});
