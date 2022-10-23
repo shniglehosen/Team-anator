@@ -1,0 +1,31 @@
+{
+    "name": "employee-tracker",
+    "version": "1.0.0",
+    "description": "Command Line tool that generates an HTML team profile page.",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "start": "node index"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dpk5e7/employee-tracker.git"
+    },
+    "author": "Nathan Aramyan",
+    "license": "Unlicense",
+    "bugs": {
+        "url": "https://github.com/dpk5e7/employee-tracker/issues"
+    },
+    "homepage": "https://github.com/dpk5e7/employee-tracker#readme",
+    "dependencies": {
+        "console.table": "^0.10.0",
+        "dotenv": "^16.0.2",
+        "inquirer": "^8.2.4",
+        "mysql2": "^2.2.5"
+    },
+    "devDependencies": {
+        "jest": "^29.2.1"
+    }
+}
